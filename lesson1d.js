@@ -23,3 +23,32 @@ console.log("The county is: ", county)
 //null data type: It is a data type that contains null values
 let username = nullconsole.log("What is the username? ", username)
 // Assignment research and come up with examples on Object and Array data types. Show how to access items of the object and of an array.
+
+
+          //OBJECT DATA TYPE
+// An object is a collection of related data stored as key–value pairs.
+// Keys (also called properties) are strings.
+// Values can be any data type (string, number, array, object, function, etc.).
+// Think of an object as a real-world entity with attributes.
+ 
+// Example
+let student = {
+  name: "Alice",
+  age: 20,
+  course: "Computer Science",
+  isEnrolled: true
+};
+console.log(student.name);     // Alice
+console.log(student.age);      // 20
+
+
+       // ARRAY DATA TYPE
+// An array is a special object used to store multiple values in a single variable.
+// Items are stored in order.
+// Each item has an index (starting from 0).
+
+
+//Example
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+console.log(fruits[0]);   // Apple
+console.log(fruits[2]);   // Mango
