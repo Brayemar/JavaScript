@@ -1,6 +1,6 @@
 // Ask user for distance
-let distance = parseFloat(prompt("Enter the distance traveled:"));
-let amount;
+let distance = 50
+let amount = 20
 
 // Check distance range
 if (distance >= 0 && distance <= 100) {
