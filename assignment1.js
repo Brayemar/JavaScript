@@ -1,6 +1,6 @@
 // Ask user for distance
-let distance = 50
-let amount = 20
+let distance = 1050
+let amount;
 
 // Check distance range
 if (distance >= 0 && distance <= 100) {
