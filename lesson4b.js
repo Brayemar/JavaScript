@@ -16,3 +16,6 @@ greet();
 (function(){
     console.log("Welcome to the world of programing...")
 })();
+
+// Read on arrow function with and without parameters.
+// research on modules in Javascript.
